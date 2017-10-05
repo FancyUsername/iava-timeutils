@@ -1,0 +1,16 @@
+<resources>
+	<resource id="actual">
+		<calendar start="01:00" end="20:00" quantity="3" />
+		<calendar start="01:00" end="03:00" quantity="5" />
+		<calendar start="02:00" end="08:00" quantity="4" />
+		<calendar start="02:00" end="04:00" quantity="6" />
+		<calendar start="07:00" end="10:00" quantity="0" />
+		<calendar start="10:00" end="15:00" quantity="0" />
+	</resource>
+	<resource id="expected">
+		<calendar start="01:00" end="02:00" quantity="5" />
+		<calendar start="02:00" end="04:00" quantity="6" />
+		<calendar start="04:00" end="07:00" quantity="4" />
+		<calendar start="15:00" end="20:00" quantity="3" />
+	</resource>
+</resources>
